@@ -13,6 +13,8 @@ Python language supports the following types of operators-
 
 """
 
+# Arithmetics Operators
+
 a = 21
 b = 10
 c = 0
