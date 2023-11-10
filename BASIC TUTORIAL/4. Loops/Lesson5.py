@@ -10,3 +10,14 @@ for  f in Friends:
 
 # This would display the friend list with the index number. 
 # And the index start from 0 up to n
+
+
+
+
+
+# USING ENUMERATE 
+"""
+This is the simpler and more decent 
+"""
+for index, i in enumerate(Friends):
+    print(index, i)
