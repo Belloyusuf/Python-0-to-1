@@ -19,6 +19,9 @@ We have 3 types of logical operators in python which are:
 """
 Python’s membership operators test for membership in a sequence, such as strings, lists,
 or tuples. There are two membership operators as explained below-
+
+1 - in
+2 - not in
 """
 
 a = 10
