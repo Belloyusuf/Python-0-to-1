@@ -5,7 +5,7 @@ import random
 
 def rand_num():
     ask = input("Enter a number morethan 100:: ")
-    for i in enumerate(ask):
+    for i in ask:
         print("Your choiced number is: ", random.choice(i))
         break
 
