@@ -22,3 +22,9 @@ print(t)
 d = {'a':10, 'b':1, 'c':22}
 for key, val in list(d.items()):
     print(val, key)
+
+
+# To Delete
+
+del d['a']
+print(d)
