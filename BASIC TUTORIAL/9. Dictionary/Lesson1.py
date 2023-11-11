@@ -16,3 +16,9 @@ t.sort()   # ==> means to arange the dict as list
 print(t)
 
 # [('a', 10), ('b', 1), ('c', 22)]
+
+
+
+d = {'a':10, 'b':1, 'c':22}
+for key, val in list(d.items()):
+    print(val, key)
