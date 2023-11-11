@@ -17,3 +17,20 @@ uniform(x,y)                       A random float r, such that x is less than or
  
 """
 
+import random
+
+# # random.choice()
+# print ("returns a random number from range(100) : ",random.choice(range(100)))
+# print ("returns random element from list [1, 2, 3, 5, 9]) : ", random.choice([1, 2, 3, 5, 9]))
+# print("returns random character from string 'Hello World' :", random.choice('Hello World'))
+
+
+
+def rand_num():
+    ask = input("Enter a number morethan 100:: ")
+    for i in enumerate(ask):
+        print("Your choiced number is: ", random.choice(i))
+        break
+
+
+rand_num()
