@@ -12,3 +12,10 @@ print("Valid date 2", valid_date2)
 
 valid_date3 = date.fromisoformat('2020-W01-04')
 print("valid date 3", valid_date3)
+
+
+
+# Replace day
+day = date(2020, 12, 30)
+rep_day = d.replace(day=22)
+print(rep_day)
