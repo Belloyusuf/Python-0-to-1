@@ -18,11 +18,14 @@ localtime = time.localtime(time.time())
 print("Local current time is: ", localtime)
 
 
-
 # Getting formatted time
+# TODO
 """
 You can format any time as per your requirement, but a simple method to get time in a
 readable format is asctime() 
+------------------ 
+The method asctime() converts a tuple or struct_time representing a time as returned by
+gmtime() or localtime() 
 """
 formated_time = time.asctime(time.localtime(time.time()))
 print("Formated time is: ", formated_time)
