@@ -26,5 +26,9 @@ print(date_format)
 
 # date.ctime()
 #  Return a string representing the date:
-ct = date(2002, 12, 4).ctime()
+ct = date(2002, 12, 4).ctime() 
 print(ct)
+
+# ct.ctime() is equivalent to: 
+# time.ctime(time.mktime(d.timetuple()))
+
