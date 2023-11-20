@@ -16,3 +16,13 @@ print("I spent " , get_result.days)
 # Print current time
 localtime = time.localtime(time.time())
 print("Local current time is: ", localtime)
+
+
+
+# Getting formatted time
+"""
+You can format any time as per your requirement, but a simple method to get time in a
+readable format is asctime() 
+"""
+formated_time = time.asctime(time.localtime(time.time()))
+print("Formated time is: ", formated_time)
