@@ -5,3 +5,9 @@ action. Functions provide better modularity for your application and a high degr
 reusing.
 
 """
+
+# Built-in functions
+welcome = "Hello world"
+print(len(welcome) )# built in fuction
+print(max(welcome))
+print(min(welcome))
