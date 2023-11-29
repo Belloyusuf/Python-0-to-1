@@ -8,3 +8,10 @@ def student():
 
 # Function call
 student()
+
+
+def sum():
+    a = 1 
+    b = 2
+    c = a + b
+    return c 
