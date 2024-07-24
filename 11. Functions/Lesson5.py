@@ -1,9 +1,10 @@
-# lesson 5 on function
-
 def addNumber(num, *args, **kwargs):
-    result =  num 
+    result = num  # Start with the initial value of num
+    
     for number in args:
-        result += number
-    print(result, **kwargs)
+        result += number  # Add each additional number in args to result
+    
+    print(result, **kwargs)  # Print the final result using kwargs
 
-addNumber(2, 3, 4, 5)
+# Test the function with the given numbers
+addNumber(2, 3, 4, 5)  # Expect 14
